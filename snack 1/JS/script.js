@@ -1,6 +1,6 @@
 const numeroA=  
-        prompt("numeroA");
-    const numeroB=   prompt("numeroB"); 
+      Number.parseInt(prompt("numeroA"));
+    const numeroB=  Number.parseInt(prompt("numeroB")); 
 
 
 
@@ -8,9 +8,9 @@ const numeroA=
 
  
  if (numeroA > numeroB) {
-    console.log(numeroA ,'è maggiore');
+    console.log(numeroA ,'è più grande di', numeroB);
     
  }
  else{
-    console.log(numeroB ,'è maggiore');
+    console.log(numeroB ,'è più grande di', numeroA);
  }
