@@ -1,3 +1,4 @@
+const body= document.getElementById(' article #container');
 const DivRosso= document.createElement('div');
 const DivVerde= document.createElement('div');
 const Numeri= [
@@ -22,3 +23,13 @@ const Numeri= [
     19,
     20,
 ]
+
+container.appendChild(DivVerde);
+container.appendChild(DivRosso);
+
+DivRosso.setAttribute("class", DivRosso.getAttribute("rosso") );
+
+DivVerde.setAttribute("class", DivVerde.getAttribute("rosso") );
+
+DivRosso.className = 'rosso';
+DivVerde.className = 'verde';
