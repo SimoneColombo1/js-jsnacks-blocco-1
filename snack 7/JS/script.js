@@ -1,11 +1,11 @@
 const Nutente= Number.parseInt(prompt('Inserisci un numero'));
 
 
-for (i=0; i<Nutente; i++){
-
-    const Array= []
+for (let i=0; i < Nutente; i++){
+    
+    let Array = [];
    
-    for(i=0 ; i<Nutente ; i++){
+    for(let g=0 ; g < 10 ; g++){
      Array.push( Math.floor (Math.random() *101));
    }
 
